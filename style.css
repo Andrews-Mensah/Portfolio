@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none; 
+
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+    padding-left: 250px;
+}
+
+iframe {
+    padding: 50px;
+    position: center;
+    display: flex;
+}
+
+header {
+    position: fixed; 
+    left:0; 
+    top:0;
+    z-index: 1000;
+    height: 100%;
+    width: 30%;
+    background-color:burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
+    color: white;
+   
+}
+
+.btn-1 {
+    padding: 3px 7px;
+    background-color:burlywood;
+    color: black;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.btn-2 {
+    padding: 3px 7px;
+    background-color:burlywood;
+    color: black;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5px;
+
+
+}
+.heading {
+    color: white;
+    border-bottom: 1px solid gray;
+    margin: 20px;
+    padding-left: 200px;
+
+}
+
+.heading span {
+    color:burlywood;
+    
+}
+
+.btn:hover{
+    background-color:blanchedalmond;
+}
+
+.user p {
+    font-size: 15px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.user h3{
+    font-size: 45px;
+}
+
+.home p {
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.navbar {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 2rem 3rem;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    background-color: black;
+    border-radius:10px;
+    color:white;
+
+}
+
+.user a {
+    color: black;
+}
+
+a:hover {
+    background-color: burlywood;
+    color:black;
+}
+
+.home {
+    justify-content: center;
+    flex-flow: column;
+    padding: 13rem;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    color: white;
+    
+
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    color: white;
+    
+
+}
+
+.home a {
+    background-color:black;
+
+
+}
+
+.about .row {
+    justify-content: center;
+    padding-left: 250px;
+
+}
+
+.info {
+    position: relative;
+    
+}
+
+.about .row .info h3 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+
+}
+
+.about .row .info h3 span {
+    font-size: 20px;
+    color: white;
+    padding: 0 0.5rem;
+    font-weight: normal;
+
+}
+
+.contacts .row {
+    justify-content: center;
+    padding-left: 250px;
+}
+
+.contacts .row .info h3 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.contacts .row .info h3 span {
+    font-size: 20px;
+    color: white;
+    padding: 0 0.5rem;
+    font-weight: normal;
+}
+
+.education .row {
+    justify-content: center;
+    padding-left: 250px;
+}
+
+.education .row .info h3 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.education .row .info h5 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.education .row .info h3 span {
+    font-size: 20px;
+    color: white;
+    padding: 0 0.5rem;
+    font-weight: normal;
+}
+
+.experience .row {
+    justify-content: center;
+    padding-left: 250px;
+}
+
+.experience .row .info h3 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.experience .row .info h5 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.experience.row .info h3 span {
+    font-size: 20px;
+    color: white;
+    padding: 0 0.5rem;
+    font-weight: normal;
+}
+
+.skills .row {
+    justify-content: center;
+    padding-left: 250px;
+}
+
+.skills .row .info h3 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.skills .row .info h5 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.skills .row .info h3 span {
+    font-size: 20px;
+    color: white;
+    padding: 0 0.5rem;
+    font-weight: normal;
+}
+
+.portfolio .row {
+    justify-content: center;
+    padding-left: 250px;
+}
+
+.portfolio .row .info h3 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.portfolio .row .info h5 {
+    font-size: 20px;
+    color:burlywood;
+    padding: 0;
+    font-weight: normal;
+}
+
+.portofolio .row .info h3 span {
+    font-size: 20px;
+    color: white;
+    padding: 0 0.5rem;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
