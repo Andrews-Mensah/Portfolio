@@ -288,6 +288,8 @@ a:hover {
 .portfolio .row {
     justify-content: center;
     padding-left: 250px;
+    font-weight: bolder;
+    color: burlywood;
 }
 
 .portfolio .row .info h3 {
@@ -309,6 +311,12 @@ a:hover {
     color: white;
     padding: 0 0.5rem;
     font-weight: normal;
+}
+
+.portofolio a {
+    font-size: 40px;
+    color:burlywood;
+    padding: 0 0.5rem;
 }
 
 
